@@ -1,0 +1,13 @@
+{
+  "server": "amqp://localhost:5672",
+  "exchange": "trademaster",
+  "queues": [
+    {
+      "name": "trade_1",
+      "bind": "*"
+    },
+    {
+      "name": "trade_2"
+    }
+  ]
+}
